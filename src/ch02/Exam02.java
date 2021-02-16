@@ -23,8 +23,10 @@ public class Exam02 {
 		float var8 = var7;
 		System.out.println(var8);
 		
+		// 실수형을 정수형으로
 		double var9 = 3.14;
 		int var10 = (int) var9;
+		System.out.println(var10);
 	};
 
 }
