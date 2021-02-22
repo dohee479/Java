@@ -27,7 +27,7 @@ public class team3Board {
            
            selectNo=sc.nextLine();
            
-           //1.Select
+           //1.Select 
            if(selectNo.equals("1")) {
              System.out.print("1.번호순\t 2.조회수순>>");
              String order=sc.nextLine();
@@ -217,7 +217,7 @@ public class team3Board {
                  if(no.equals(boardArray[i][0])) {
                     break;
                  }
-              }
+              } 
               
               for(int j=0;j<boardInformation;j++) {
                  if(i>=boardNum) {
@@ -246,7 +246,7 @@ public class team3Board {
            
            //목록 출력
            if(selectNo.equals("2")||selectNo.equals("4")||selectNo.equals("5")) {
-
+              
               
               //내림차순 정렬
               for(int i=0;i<boardNum;i++) {
